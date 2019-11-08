@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "SoundWaveView.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet SoundWaveView *soundView;
 
 @end
 
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)clickedStart:(id)sender {
+    [_soundView startAnimation];
+}
+
+- (IBAction)clickedPause:(id)sender {
+    [_soundView pauseAnimation];
 }
 
 

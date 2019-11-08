@@ -14,6 +14,7 @@
 		4698E3212373D10F004EE744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4698E3202373D10F004EE744 /* Assets.xcassets */; };
 		4698E3242373D10F004EE744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698E3222373D10F004EE744 /* LaunchScreen.storyboard */; };
 		4698E3272373D10F004EE744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E3262373D10F004EE744 /* main.m */; };
+		4698E3312373D37B004EE744 /* SoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E3302373D37B004EE744 /* SoundWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4698E3232373D10F004EE744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4698E3252373D10F004EE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4698E3262373D10F004EE744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4698E32F2373D37B004EE744 /* SoundWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundWaveView.h; sourceTree = "<group>"; };
+		4698E3302373D37B004EE744 /* SoundWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		4698E3132373D10D004EE744 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				4698E32E2373D366004EE744 /* Assets */,
+				4698E32D2373D366004EE744 /* Classes */,
 				4698E3142373D10D004EE744 /* AppDelegate.h */,
 				4698E3152373D10D004EE744 /* AppDelegate.m */,
 				4698E3172373D10D004EE744 /* SceneDelegate.h */,
@@ -74,6 +79,24 @@
 				4698E3262373D10F004EE744 /* main.m */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		4698E32D2373D366004EE744 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4698E32F2373D37B004EE744 /* SoundWaveView.h */,
+				4698E3302373D37B004EE744 /* SoundWaveView.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		4698E32E2373D366004EE744 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = ../../Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +171,7 @@
 			files = (
 				4698E31C2373D10D004EE744 /* ViewController.m in Sources */,
 				4698E3162373D10D004EE744 /* AppDelegate.m in Sources */,
+				4698E3312373D37B004EE744 /* SoundWaveView.m in Sources */,
 				4698E3272373D10F004EE744 /* main.m in Sources */,
 				4698E3192373D10D004EE744 /* SceneDelegate.m in Sources */,
 			);

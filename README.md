@@ -16,7 +16,7 @@ gif演示
 可在xib中直接设置及预览效果  
 
 <div align="center">
-<img src="/Assets/102347.png" width="400" height="717" >
+<img src="/Assets/102347.png" width="400" height="268" >
 </div> 
 
 
